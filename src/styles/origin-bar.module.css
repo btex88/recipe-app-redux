@@ -1,0 +1,30 @@
+.container {
+  appearance: none;
+  outline: 0;
+  border: 0;
+  box-shadow: none;
+  flex: 1;
+  padding: 0 1rem;
+  background-color: #fecaca;
+  background-image: none;
+  cursor: pointer;
+  position: relative;
+  display: flex;
+  width: 20rem;
+  height: 3rem;
+  border-radius: .25rem;
+  overflow: hidden;
+}
+
+.arrow {
+  position: absolute;
+  color: #fecaca;
+  border-radius: 0 .25rem .25rem 0;
+  top: 0;
+  right: 0;
+  height: 3rem;
+  padding: 1rem;
+  background-color: #7f1d1d;
+  transition: .25s all ease;
+  pointer-events: none;
+}

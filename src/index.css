@@ -1,0 +1,29 @@
+@keyframes blink {
+  0% {
+    text-shadow: 1px 1px 4px #3f00007f;
+  }
+  70% {
+    text-shadow: none;
+  }
+  100% {
+    text-shadow: 1px 1px 4px #3f00007f;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 400;
+  color: #4b5563;
+  transition-property: all;
+  transition-duration: 300ms;
+  transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  user-select: none;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
